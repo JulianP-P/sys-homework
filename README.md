@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "Zabbix - часть 2" - Прощина Юлия
 
 ### Задание 1
 
@@ -21,7 +21,7 @@
 
 Кастомный дашборд
 
-![Дашборд](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img3.png)
+![Дашборд](https://github.com/JulianP-P/sys-homework/blob/zabbix-part2/img/img3.png)
 
 ---
 
