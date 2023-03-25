@@ -26,14 +26,14 @@ git commit -m "task 1"
 git add .
 git commit -m "task 2"
 ```
-`Aгенты подключены к серверу`
+Aгенты подключены к серверу
 ![Aгенты подключены к серверу](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img2.png)
 
-`Логи zabbix agent`
+Логи zabbix agent
 
 ![Логи zabbix agent](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img3.png)
 
-`Latest data`
+Latest data
 ![Latest data](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img4.png)
 
 
