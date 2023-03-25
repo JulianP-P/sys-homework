@@ -9,11 +9,10 @@ git clone https://github.com/JulianP-P/sys-homework.git
 git checkout -b zabbix-part1
 git add .
 git commit -m "task 1"
-
 ```
 
-`
-![Админка zabbix](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img1.png)`
+
+![Админка zabbix](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img1.png)
 
 
 ---
@@ -26,11 +25,10 @@ git commit -m "task 1"
 ```
 git add .
 git commit -m "task 2"
-
 ```
 
-`![Aгенты подключены к серверу](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img2.png)`
-`![Логи zabbix agent](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img3.png)`
-`![Latest data](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img4.png)`
+![Aгенты подключены к серверу](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img2.png)
+![Логи zabbix agent](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img3.png)
+![Latest data](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img4.png)
 ---
 
