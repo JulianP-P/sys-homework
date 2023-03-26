@@ -24,7 +24,7 @@
 ![Дашборд](https://github.com/JulianP-P/sys-homework/blob/prometheus-part1/img/img3.png)
 
 
-![Дашборд](https://github.com/JulianP-P/sys-homework/blob/prometheus-part1/img/img4.png)
+![Даш,](https://github.com/JulianP-P/sys-homework/blob/prometheus-part1/img/img4.png)
 
 ---
 
