@@ -2,7 +2,7 @@
 
 ### Задание 1
 
-Установка прометиуса
+Установка прометeуса
 
 ![Шаблон](https://github.com/JulianP-P/sys-homework/blob/prometheus-part1/img/img1.png)
 
