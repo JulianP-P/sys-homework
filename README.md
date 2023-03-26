@@ -1,27 +1,27 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "Prometheus - часть 1" - Прощина Юлия
 
 ### Задание 1
 
-Шаблон с мониторингом CPU и RAM
+Установка прометиуса
 
-![Шаблон](https://github.com/JulianP-P/sys-homework/blob/zabbix-part2/img/img1.png)
+![Шаблон](https://github.com/JulianP-P/sys-homework/blob/prometheus-part1/img/img1.png)
 
+
+---
+
+### Задание 2
+
+Установка Node Exporter
+
+![Aгенты подключены к серверу](https://github.com/JulianP-P/sys-homework/blob/prometheus-part1/img/img2.png)
 
 ---
 
 ### Задание 3
 
-Привязанные шаблоны к хостам
+Подключение Node Exporter к серверу Prometheus
 
-![Aгенты подключены к серверу](https://github.com/JulianP-P/sys-homework/blob/zabbix-part2/img/img2.png)
-
----
-
-### Задание 4
-
-Кастомный дашборд
-
-![Дашборд](https://github.com/JulianP-P/sys-homework/blob/zabbix-part1/img/img3.png)
+![Дашборд](https://github.com/JulianP-P/sys-homework/blob/prometheus-part1/img/img3.png)
 
 ---
 
