@@ -25,9 +25,9 @@ Alerts из Prometheus, где правило оповещения в стату
 
 Экспортёр метрик в Docker
 
-![Эндпоинт](https://github.com/JulianP-P/sys-homework/blob/prometheis-part1/img/img4.png)
+![Эндпоинт](https://github.com/JulianP-P/sys-homework/blob/prometheis-part2/img/img4.png)
 
-![Дашборд](https://github.com/JulianP-P/sys-homework/blob/prometheis-part1/img/img5.png)
+![Дашборд](https://github.com/JulianP-P/sys-homework/blob/prometheis-part2/img/img5.png)
 
 ---
 
