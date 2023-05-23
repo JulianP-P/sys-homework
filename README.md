@@ -1,13 +1,24 @@
-# Домашнее задание к занятию "резервное копирование" - Прощина Юлия
+# Домашнее задание к занятию "Резервное копирование" - Прощина Юлия
 
 ### Задание 1
+В чём разница между:
+
+- полным резервным копированием, - делает полное копирование всего
+- дифференциальным резервным копированием, - сначала делается полное резервное копирование, затем при каждом запуске процесса резервируются только измененные данные, но точкой отсчета является состояние времени полного бэкапа
+- инкрементным резервным копированием - работает как дифференцированное копирование, но в отличии от него бэкапятся данные, которые были изменены из последнего слепка, то есть отправная точка каждого нового бэкапа это бэкап n-1
+
 ### Задание 2
 
+Установите программное обеспечении Bacula, настройте bacula-dir, bacula-sd, bacula-fd. Протестируйте работу сервисов.
 
-![мастер](https://github.com/JulianP-P/sys-homework/blob/keepalived/img/img1.png)
+Конфигурационные файлы для [bacula-dir](https://github.com/JulianP-P/sys-homework/blob/bacula/bacula-dir.conf), [bacula-sd](https://github.com/JulianP-P/sys-homework/blob/bacula/bacula-sd.conf), [bacula-fd](https://github.com/JulianP-P/sys-homework/blob/bacula/bacula-fd.conf)
+
+Cкриншот, подтверждающий успешное прохождение резервного копирования.
+![мастер](https://github.com/JulianP-P/sys-homework/blob/bacula/img/img1.png)
 
 ### Задание 3
-
+Установите программное обеспечении Rsync. Настройте синхронизацию на двух нодах. Протестируйте работу сервиса.
+Конфигурация сервера
 ```
 pid file = /var/run/rsyncd.pid
 log file = /var/run/rsyncd.log
@@ -21,7 +32,7 @@ comment = Data backup
 auth users = backup
 secrets file = /etc/rsyncd.scrt
 ```
-
+Клиент Rsync
 ```
 #!/bin/bash
 date
@@ -37,7 +48,7 @@ mkdir -p ${syst_dir}${srv_name}/increment/
 date
 echo "Finish backup ${srv_name}"
 ```
-
+![мастер](https://github.com/JulianP-P/sys-homework/blob/bacula/img/img2.png)
 
 ---
 
