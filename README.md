@@ -28,15 +28,16 @@ Round Robin и Weighted Round Robin распределяют запросы по
 curl http://localhost:8088/ping
 он возвращал в ответе строчку:
 "nginx is configured correctly".
+
 ![nginxping](https://github.com/JulianP-P/sys-homework/blob/haproxy/img/img2.png)
 
 
 ```
 server {
-listen 8088;
-location /ping {
-return 200 'nginx is configured correctly\n';
-}
+  listen 8088;
+  location /ping {
+    return 200 'nginx is configured correctly\n';
+  }
 }
 ```
 
